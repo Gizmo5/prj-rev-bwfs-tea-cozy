@@ -1,0 +1,165 @@
+/*Body of page*/
+body {
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*commen style blocks*/
+div {
+  display: block;
+}
+a {
+  font: inherit;
+  display: inline-block;
+  color: seashell;
+  padding-left: 30px;
+  text-decoration: underline;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+/*Header of page */
+header {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  width: 100%;
+  height: 69px;
+  position:fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+/*Tea mission part of page*/
+.teamission {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  padding-top: 69px;
+}
+.image_mission{
+  z-index: 5;
+  height: 700px;
+  width: 1200px;
+  background: url(../pics/img-mission-background.jpg);
+  background-size: cover;
+}
+.content {
+  z-index: 7;
+  width: 1200px;
+  height: 100px;
+  margin-top: 300px;
+  background-color: black;
+}
+
+/*Tea features part of page*/
+#features {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.teafeatures .header {
+  width: 100%;
+  text-align: center;
+}
+/*Images for the tea features part of page*/
+.image.A {
+  background: url(../pics/img-berryblitz.jpg);
+  background-size: cover;
+}
+.image.B {
+  background: url(../pics/img-spiced-rum.jpg);
+  background-size: cover;
+}
+.image.C {
+  background: url(../pics/img-donut.jpg);
+  background-size: cover;
+}
+.image.D {
+  background: url(../pics/img-myrtle-ave.jpg);
+  background-size: cover;
+}
+.image.E {
+  background: url(../pics/img-bedford-bizarre.jpg);
+  background-size: cover;
+}
+
+/*common classes for reuse in tea features part*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image {
+  display: block;
+  margin: 10px 15px;
+  width: 300px;
+  height: 200px;
+}
+.image_caption p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+/*Locations part of page*/
+#locations {
+  z-index: 3;
+  height: 500px;
+  width: 1200px;
+  margin: 70px auto;
+  margin-bottom: 0px;
+  padding-top: 70px;
+  background: url(../pics/img-locations-background.jpg);
+}
+#locations h2 {
+  height: 38px;
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+.flex-container.tealocations{
+  width: 100%;
+}
+.location {
+  z-index: 4;
+  background-color: black;
+  height: 260px;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px 20px;
+  opacity: 1;
+}
+.location p {
+  margin: 22px 0px;
+}
+
+/*Footer of the page*/
+.contact {
+  width: 100%;
+  height: 200px;
+}
+.copyright {
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+}
